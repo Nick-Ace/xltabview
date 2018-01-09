@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0477E3D51F8B37C10010C353 /* Child1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0477E3D41F8B37C10010C353 /* Child1VC.swift */; };
+		0477E3D71F8B37E10010C353 /* Child2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0477E3D61F8B37E10010C353 /* Child2VC.swift */; };
 		04D725D11F8A364A007FA475 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D725D01F8A364A007FA475 /* AppDelegate.swift */; };
-		04D725D31F8A364A007FA475 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D725D21F8A364A007FA475 /* ViewController.swift */; };
 		04D725D61F8A364A007FA475 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D725D41F8A364A007FA475 /* Main.storyboard */; };
 		04D725D81F8A364A007FA475 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D725D71F8A364A007FA475 /* Assets.xcassets */; };
 		04D725DB1F8A364A007FA475 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D725D91F8A364A007FA475 /* LaunchScreen.storyboard */; };
+		04D725E51F8A3D6C007FA475 /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D725E41F8A3D6C007FA475 /* ParentViewController.swift */; };
+		141B4FC177F92BE6CEEB982D /* Pods_xltabview.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77A7A3EAC04475E47C85219 /* Pods_xltabview.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0477E3D41F8B37C10010C353 /* Child1VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Child1VC.swift; sourceTree = "<group>"; };
+		0477E3D61F8B37E10010C353 /* Child2VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Child2VC.swift; sourceTree = "<group>"; };
 		04D725CD1F8A364A007FA475 /* xltabview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xltabview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D725D01F8A364A007FA475 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04D725D21F8A364A007FA475 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04D725D51F8A364A007FA475 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04D725D71F8A364A007FA475 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04D725DA1F8A364A007FA475 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04D725DC1F8A364A007FA475 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D725E41F8A3D6C007FA475 /* ParentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentViewController.swift; sourceTree = "<group>"; };
+		11BCB9B299C9C3D1D054B060 /* Pods-xltabview.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xltabview.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xltabview/Pods-xltabview.debug.xcconfig"; sourceTree = "<group>"; };
+		D77A7A3EAC04475E47C85219 /* Pods_xltabview.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xltabview.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7A818714AE2409FE83D60EE /* Pods-xltabview.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xltabview.release.xcconfig"; path = "Pods/Target Support Files/Pods-xltabview/Pods-xltabview.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				141B4FC177F92BE6CEEB982D /* Pods_xltabview.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +49,8 @@
 			children = (
 				04D725CF1F8A364A007FA475 /* xltabview */,
 				04D725CE1F8A364A007FA475 /* Products */,
+				F5BFD7A1F95097D9F89DC752 /* Pods */,
+				74AF9BD8D051F5EFD5B22C0D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +66,32 @@
 			isa = PBXGroup;
 			children = (
 				04D725D01F8A364A007FA475 /* AppDelegate.swift */,
-				04D725D21F8A364A007FA475 /* ViewController.swift */,
 				04D725D41F8A364A007FA475 /* Main.storyboard */,
 				04D725D71F8A364A007FA475 /* Assets.xcassets */,
 				04D725D91F8A364A007FA475 /* LaunchScreen.storyboard */,
 				04D725DC1F8A364A007FA475 /* Info.plist */,
+				04D725E41F8A3D6C007FA475 /* ParentViewController.swift */,
+				0477E3D41F8B37C10010C353 /* Child1VC.swift */,
+				0477E3D61F8B37E10010C353 /* Child2VC.swift */,
 			);
 			path = xltabview;
+			sourceTree = "<group>";
+		};
+		74AF9BD8D051F5EFD5B22C0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D77A7A3EAC04475E47C85219 /* Pods_xltabview.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5BFD7A1F95097D9F89DC752 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11BCB9B299C9C3D1D054B060 /* Pods-xltabview.debug.xcconfig */,
+				E7A818714AE2409FE83D60EE /* Pods-xltabview.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04D725DF1F8A364A007FA475 /* Build configuration list for PBXNativeTarget "xltabview" */;
 			buildPhases = (
+				9BC94696D1104825850E88DE /* [CP] Check Pods Manifest.lock */,
 				04D725C91F8A364A007FA475 /* Sources */,
 				04D725CA1F8A364A007FA475 /* Frameworks */,
 				04D725CB1F8A364A007FA475 /* Resources */,
+				0E779B9AB75099D9F3D19D84 /* [CP] Embed Pods Frameworks */,
+				BE65EB5801334C52C5F2CEC4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +164,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E779B9AB75099D9F3D19D84 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-xltabview/Pods-xltabview-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BC94696D1104825850E88DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BE65EB5801334C52C5F2CEC4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-xltabview/Pods-xltabview-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04D725C91F8A364A007FA475 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04D725D31F8A364A007FA475 /* ViewController.swift in Sources */,
+				0477E3D71F8B37E10010C353 /* Child2VC.swift in Sources */,
+				04D725E51F8A3D6C007FA475 /* ParentViewController.swift in Sources */,
 				04D725D11F8A364A007FA475 /* AppDelegate.swift in Sources */,
+				0477E3D51F8B37C10010C353 /* Child1VC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +343,7 @@
 		};
 		04D725E01F8A364A007FA475 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11BCB9B299C9C3D1D054B060 /* Pods-xltabview.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = xltabview/Info.plist;
@@ -272,6 +356,7 @@
 		};
 		04D725E11F8A364A007FA475 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7A818714AE2409FE83D60EE /* Pods-xltabview.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = xltabview/Info.plist;
@@ -301,6 +386,7 @@
 				04D725E11F8A364A007FA475 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
